@@ -128,7 +128,7 @@ info.onCountdownEnd(function () {
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         `)
     pause(100)
-    game.splash("ＶＩＣＴＯＲＹ", "Ｔｈｅ　ｓｈｏｕｔｅｒ　ｅｘｐｌｏｄｅｄ")
+    game.splash("你勝利了", "你成功躲避了1分鐘")
 })
 info.onLifeZero(function () {
     info.stopCountdown()
@@ -258,13 +258,13 @@ info.onLifeZero(function () {
         ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
         `)
     pause(100)
-    game.splash("YOU　ＤＩＥＤ", "ＤＥＡＦＥＴ")
+    game.splash("你死了", "被打敗")
 })
-game.splash("tap A to start")
-game.splash("run from the yllow ball")
-game.splash("every 10 sec will have a new one,only 5balls all")
-game.splash("if you can stay for a min you win")
-game.splash("the game wil start after you tap a")
+game.splash("按 A 以開始")
+game.splash("躲避黃色球")
+game.splash("每十秒就和產生新的黃球，總共會產出5個", "你只有3條命")
+game.splash("如果你能堅持一分鐘你就贏")
+game.splash("遊戲將會在你按A後開始")
 info.startCountdown(60)
 info.setLife(3)
 scene.setBackgroundImage(img`
