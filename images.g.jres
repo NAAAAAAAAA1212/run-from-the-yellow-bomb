@@ -1,0 +1,17 @@
+{
+    "image2": {
+        "data": "hwQQABAAAAAAAAAgAgAAAAAAACIiAAAAAAAgIiICAAAAACIiIiIAAAAgIiIiIgIAACIiIiIiIgAgIiIiIiIiAiIiIiIiIiIiIiIiIiIiIiIgIiIiIiIiAgAiIiIiIiIAACAiIiIiAgAAACIiIiIAAAAAICIiAgAAAAAAIiIAAAAAAAAgAgAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ball"
+    },
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAcAAAAAAAAAB3AAAAAAAAcHAAAAAAAAAHcAAAAAAAcABwAAAAAAAHAHAAAAAAcAAAcHd3d3d3d3d3d3d3d3d3d3cAAAAAcAAAcAAAAAAABwBwAAAAAABwAHAAAAAAAAAHcAAAAAAAAHBwAAAAAAAAAHcAAAAAAAAAcA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "gun"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
