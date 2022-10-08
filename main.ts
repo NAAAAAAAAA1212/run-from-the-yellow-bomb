@@ -263,9 +263,9 @@ info.onLifeZero(function () {
 game.splash("tap A to start")
 game.splash("run from the yllow ball")
 game.splash("every 10 sec will have a new one,only 5balls all")
-game.splash("if you can stay for 2min you win")
+game.splash("if you can stay for a min you win")
 game.splash("the game wil start after you tap a")
-info.startCountdown(120)
+info.startCountdown(60)
 info.setLife(3)
 scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
