@@ -4,6 +4,9 @@ namespace SpriteKind {
 info.onCountdownEnd(function () {
     game.over(true)
 })
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    game.over(false)
+})
 info.onLifeZero(function () {
     game.over(false)
 })
