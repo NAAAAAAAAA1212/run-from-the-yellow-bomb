@@ -1,6 +1,6 @@
 {
     "name": "Run from the yellow bomb",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "",
     "dependencies": {
         "device": "*",
