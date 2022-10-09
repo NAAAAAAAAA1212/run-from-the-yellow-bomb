@@ -529,4 +529,12 @@ forever(function () {
         eball3.destroy(effects.halo, 500)
         info.changeLifeBy(-1)
     }
+    if (mySprite.overlapsWith(eball4)) {
+        eball4.destroy(effects.halo, 500)
+        info.changeLifeBy(-1)
+    }
+    if (mySprite.overlapsWith(eball5)) {
+        eball5.destroy(effects.halo, 500)
+        info.changeLifeBy(-1)
+    }
 })
