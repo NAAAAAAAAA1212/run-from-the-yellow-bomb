@@ -129,6 +129,7 @@ scene.setBackgroundImage(img`
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
     `)
+music.playMelody("C D E F G A B C5 ", 500)
 game.splash("躲避黃色球", "V 2.0.0")
 game.splash("每十秒就和產生新的黃球，總共會產出5個", "你只有3條命")
 game.splash("如果你能堅持一分鐘你就贏")
@@ -266,21 +267,26 @@ forever(function () {
     if (mySprite.overlapsWith(eball1)) {
         eball1.destroy(effects.halo, 500)
         info.changeLifeBy(-1)
+        music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.InBackground)
     }
     if (mySprite.overlapsWith(eball2)) {
         eball2.destroy(effects.halo, 500)
         info.changeLifeBy(-1)
+        music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.InBackground)
     }
     if (mySprite.overlapsWith(eball3)) {
         eball3.destroy(effects.halo, 500)
         info.changeLifeBy(-1)
+        music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.InBackground)
     }
     if (mySprite.overlapsWith(eball4)) {
         eball4.destroy(effects.halo, 500)
         info.changeLifeBy(-1)
+        music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.InBackground)
     }
     if (mySprite.overlapsWith(eball5)) {
         eball5.destroy(effects.halo, 500)
         info.changeLifeBy(-1)
+        music.playSoundEffect(music.createSoundEffect(WaveShape.Sine, 5000, 0, 255, 0, 500, SoundExpressionEffect.None, InterpolationCurve.Linear), SoundExpressionPlayMode.InBackground)
     }
 })
